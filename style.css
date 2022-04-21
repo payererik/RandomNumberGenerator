@@ -1,0 +1,110 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, sans-serif;
+    font-size: 200%;
+    border-width : 5px;
+  border-color: black;
+  }
+
+label {
+      color: rgb(0, 0, 0);
+      font-family: Helvetica, sans-serif;
+      font-size: 160%;
+}
+legend{
+      color: rgb(0, 0, 0);
+      font-family: Helvetica, sans-serif;
+      font-size: 160%;
+}
+button{
+      color: rgb(0, 0, 0);
+      font-family: Helvetica, sans-serif;
+      font-size: 160%;
+}
+fieldset{
+      width: 30%;
+      border-style : solid;
+        border-width : 5px;
+      border-color: black;
+      padding: 15px;
+      border-radius: 8px;
+}
+#Output{
+  
+
+}
+#gen{
+  text-align: center;
+  float: right;
+  top: -1000px;
+  width:40%;
+  border-style : solid;
+    border-width : 5px;
+  border-color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+#test{
+  text-align: center;
+  right: 10px;
+  font-size: 250%;
+  
+}
+
+input{
+      border-style : solid;
+      border-color: black;
+      font-family: Helvetica, sans-serif;
+      font-size: 160%;
+      width: 30%;
+      border-radius: 4px;
+}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; 
+    width:100%;
+  }
+  
+button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    transition: all 0.5s;
+  }
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 100.5s;
+  }
+  
+button span:after {
+    content: '\1F847';
+    position: absolute;
+    opacity: 0;
+    top:-1px;
+    right: 0px;
+    transition: 0.55s;
+  }
+  
+button:hover span {
+    padding-right: 45px;
+  }
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

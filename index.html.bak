@@ -1,0 +1,33 @@
+<html>
+
+ <head>
+<title>Random Number Generator</title>
+</head>
+
+ <body>
+<form>
+<fieldset>
+<legend>Random Number Generator</legend>
+	<label for="Z1">Min:</label>
+		<input type="number" id="Z1"><br><br>
+			<label for="Z2">Max:</label>
+				<input type="number" id="Z2" ><br><br>
+	</fieldset>
+		</form>
+<button onclick="copyInput()">Submit</button>
+<h1 id="test">0</h1>
+
+ <script>
+var Z1 = 0;
+var Z2 = 0;
+			function copyInput(){
+				Z1 = parseInt(document.getElementById("Z1").value);
+				Z2 = parseInt(document.getElementById("Z2").value);
+				Z2 = Z2 + 1;
+				R1 = Math.floor(Math.random() * (Z2 - Z1) + Z1);
+		document.getElementById("test").innerHTML = R1;
+}
+</script>
+</body>
+
+</html
